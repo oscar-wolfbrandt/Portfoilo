@@ -1,0 +1,179 @@
+body{
+  background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+   color: white;
+   font-family: fantasy;
+   font-weight: 100;
+   margin-left: 1rem;
+}
+
+h2{
+    font-family: fantasy;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+
+.title-text{
+  font-family: fantasy;
+  font-weight: 100;
+  font-size: 250%;
+}
+
+
+p{
+    font-family: sans-serif;
+}
+
+a{
+    font-family: fantasy;
+    font-weight: 100;
+    text-decoration: none;
+    color:white;
+}
+
+.contet-div{
+    display: flex;
+    margin-top:5%;
+    background-color: whitesmoke;
+    max-width: 70%;
+}
+
+.p-1{
+    display: flex;
+    align-items: start;
+    gap:2rem;
+    justify-content: center;
+    border: 3px solid black;
+    border-left: 10px solid black;
+    border-radius: 8px;
+    max-width: 100%;
+    padding-left: 1rem;
+    box-shadow: 0  1px 3px green;
+    margin-bottom:2rem ;
+    
+}
+
+.p{
+    max-width: 60%;
+    margin: 0;
+    padding: 0;
+}
+
+.p-1:hover{
+  size: 150%;
+  transform: scale(120%) ;
+  transition: transform 1s;
+  background-color: whitesmoke;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    display: flex;
+    justify-content:center;
+    gap:0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: #232323;
+  }
+
+
+  
+  .menu a {
+    float: left;
+    font-size: 150%;
+    font-family: fantasy;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .menu-sub {
+    float: left;
+    overflow: hidden;
+    font-family: fantasy;
+    font-weight: 100;
+  }
+  
+  .menu-sub .btn {
+    font-size: 150%;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 1rem 16px;
+    background-color: #232323;
+    font-family: fantasy;
+    font-weight: 100;
+    margin: 0;
+  }
+  
+  .menu a:hover, .menu-sub:hover .btn {
+    background-color: #1f1f1f;
+  }
+  
+  .menu-sub-content {
+    display: none;
+    position: absolute;
+    justify-content: end;
+    background-color: #c0c0c0;
+    max-width: 13%;
+    z-index: 1;
+  }
+  
+  .menu-sub-content a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu-sub-content a:hover {
+    background-color: inherit;
+    color: black;
+  }
+  
+  .menu-sub:hover .menu-sub-content {
+    display:block;
+  }
+
+.botom{
+  display: flex;
+  background-color:  #232323;
+  align-items: center;
+  justify-content: center;
+  gap:3rem;
+}
+  
+.botom-text{
+  color:white;
+  margin-block:1rem;
+  font-family: fantasy;
+  font-weight: 25;
+  font-size: 120%;
+}
+
+.uimg{
+  padding: 0;
+  margin: 0;
+  margin-right: 2px;
+  width: 40%;
+  height: 100%;
+}
+
+.inside{
+  margin: 1rem;
+}
